@@ -9,7 +9,7 @@ Extract SMB packets that contain a certain string from a pcap file.
 ### Usage:
 Help command output:
 ```bash
-bo9al@onion-sweet01:~/Documents/scripts$ python smb_analyzer.py -h
+user6@onion-sweet01:~/Documents/scripts$ python smb_analyzer.py -h
 SMB Analyzer V1.0
 
 
