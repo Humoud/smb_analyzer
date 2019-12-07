@@ -55,8 +55,8 @@ if args.extract_url_iocs:
                 iocs.append(url)
                 print(url)
     print("Extracted {} IOCs (not unique)".format(counter))
-    print("Writing IOCs to file analyzer.iocs...")
-    with open( args.output+".ioc", 'w') as f:
+    print("Writing IOCs to file {}.iocs...".format(args.output))
+    with open(args.output+".ioc", 'w') as f:
         for item in iocs:
             f.write("{}\n".format(item))
 print("Done!")
