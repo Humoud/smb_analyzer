@@ -4,7 +4,10 @@ Extract SMB packets that contain a certain string from a pcap file.
 ### Requirements:
   1. Python 2, i did try to make the code compatible with Python 3, however i am not sure if the two libraries below support python 3.
   2. https://github.com/secdev/scapy
+      * `pip install scapy`
   3. https://github.com/InQuest/python-iocextract
+      * `sudo apt-get install python-dev`
+      * `pip install iocextract`
  
 ### Usage:
 Help command output:
